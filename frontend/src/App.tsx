@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("https://express-demo-2.onrender.com")
+      .get("https://express-demo-2.onrender.com:3000")
       .then((response) => {
         setData(response.data);
       })
